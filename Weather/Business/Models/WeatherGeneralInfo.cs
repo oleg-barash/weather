@@ -1,0 +1,10 @@
+namespace Weather.Business.Models
+{
+    public class WeatherGeneralInfo
+    {
+        public int Id { get; set; }
+        public string Main { get; set; }
+        public string Description { get; set; }
+        public string Icon { get; set; }
+    }
+}
